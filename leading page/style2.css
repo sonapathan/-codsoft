@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rebeccapurple;
+    box-sizing: border-box;
+   
+    
+}
+
+    @media all and  (max-width:768px) {
+      body{
+        overflow: hidden;
+        width: 100%;
+    
+      }
+      
+    }
+  
+  
+  
+
+
+
+
+.navbar1{
+    display: flex; 
+    height: 70px;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+
+.icon{
+    margin-left: 20px;
+    display: flex;
+    height: 70px;
+    background-image: linear-gradient(#0b846d,red);
+    width: 5px;
+
+}
+.icon:hover{
+  background-color: #0b846d;
+  
+}
+.contect{
+    display: flex;
+    margin-left: 40px;
+}
+.btn {
+color:black;
+margin-left:300px ;
+height: 50px;
+width: 200px;
+background-color: rebeccapurple;
+    
+    
+}
+.btn:hover{
+    background-color: aliceblue;
+}
+
+@media screen and (max-width:768px) {
+  .navbar2 li, a {
+    flex-direction: column;
+    width: 100%;
+    color: black;
+  }
+  
+}
+@media screen and (max-width:768px) {
+  .aboutsect,.i,.p2{
+  flex-direction: column;
+  font-size: small;
+  background-color: white;
+  
+  }
+  
+}
+
+
+
+.navbar2{
+    background-image: linear-gradient(rebeccapurple,white);
+}
+.navbar2 ul {
+    list-style-type: none;
+    text-align: center;
+  }
+ 
+  p,p1,p2,h3 {
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+  }
+
+  .navbar2 ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .navbar2 ul li a {
+    font-family: 'Abril Fatface',serif;
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar2 ul li a:hover {
+    background-color: #555;
+  }
+  @media screen  and (min-width:877px){
+    .navbar2 ul li a{
+      flex-direction: column;
+    }
+    
+  }
+  i:hover{
+    background-color: black;
+
+  }
+  .container{
+    display: flex;
+
+  }
+  .line{
+    margin: 50px;
+    height: 100px;
+    width: 10px;
+    border: 1px solid white;
+    background-image: linear-gradient(white,rebeccapurple)
+  }
+  h3{
+    margin: 50px;
+  }
+  p{
+    margin-left: 200px;
+  }
+  .bacimg{
+    background-image: url(/img/pic2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .btn1 ,button1{
+    padding: 1%;
+    margin-left: 200px;
+    justify-content: space-between;
+    
+  }
+  .btn2 ,button{
+    background-image: linear-gradient(white,rebeccapurple);
+    padding: 1%;
+    border-radius: 5px;
+
+  }
+  .button:hover{
+    background-color: aliceblue;
+  }
+  .aboutsect{
+    padding: 20px 10px 10px 20px;
+    display: flex;
+    margin-top:100px ;
+    height: 150px;
+    width: 100%;
+    background-color: rebeccapurple;
+  }
+
+ .about{
+  margin-top: 100px;
+  height: 70pc;
+  width:100% ;
+  background-image: linear-gradient(white,rebeccapurple);
+ }
+ .underline {
+  height: 10px;
+  background-image: linear-gradient(red,rebeccapurple);
+ width: 150px;
+  border-radius: 5px;
+ }
+ .description{
+  padding: 70px;
+  
+ }
+ .btn01{
+  margin-left: 90px;
+
+ }
+
+
+
+ 
+ section {
+  background-image: linear-gradient(white,rebeccapurple);
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.Services {
+  background-color: #0b846d;
+  display: flex;
+  height: 860px;
+
+  
+}
+
+  .container1 ,box{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    padding-left: 0px;
+
+    
+  }
+  .box {
+    height: 220px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid black;
+    text-align: center;
+    
+  }
+  
+ 
+
+  @media only screen and (max-width: 768px) {
+    .box {
+      background-color: beige;
+     
+  
+
+      
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .container1 {
+      flex-direction: column;
+    }
+  
+    .content, .image {
+      flex: none;
+    }
+  
+
+    .button1{
+      background-color: whitesmoke;
+      height: 40px;
+      border-radius: 5px;
+      width: 160px;
+    }
+  
+     
+  @media screen  and (max-width:768px) {
+    .about{
+      flex-direction: column;
+      overflow: hidden;
+      
+    }
+    
+  }
+  
+  .footer2{
+    text-align: center;
+    justify-content: center;
+    /* background-color: white; */
+    height: 40px;
+    width: 100%;
+    position: absolute;
+  }
+  
+
+
+
+
+
+  
+
+  }
+
+
